@@ -1,0 +1,110 @@
+header {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(52, 104, 226);
+
+}
+
+.logo {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    float: left;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    font-size: large;
+    margin: 20px 20px;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* background: linear-gradient(#b4ce6b, #5594dc); */
+    background-image: url(https://e0.pxfuel.com/wallpapers/528/494/desktop-wallpaper-sleepy-mountains-artist-artwork-digital-art-mountains-nature-white-and-blue-minimal.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.box {
+    position: absolute;
+    top: 150px;
+    left: 40px; 
+    width: 400px;
+    height: 300px;
+    background-color: rgb(93, 166, 225);
+    margin: 0px auto;
+    text-align: center;
+
+}
+.add {
+    position: relative;
+    top: 110px;
+    left:40px;
+ }
+/* .add button:hover{
+    background-color: 
+} */
+table {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid rgb(193, 193, 193);
+    padding: 2px;
+}
+
+button {
+    background-color: rgb(237, 190, 190);
+    border: none;
+    padding: 8px 8px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: rgb(224, 74, 64);
+}
+
+
+
+/* .box button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 8px 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    position: absolute;
+    top: 2px;
+    right:2px
+  }
+  .box button:hover{
+    background-color: bisque;
+  } */
